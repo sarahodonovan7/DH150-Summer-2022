@@ -1,1 +1,25 @@
 Seoul Bike Data
+Article 1: [1] Sathishkumar V E, Jangwoo Park, and Yongyun Cho. 'Using data mining techniques for bike sharing demand prediction in metropolitan city.' Computer Communications, Vol.153, pp.353-366, March, 2020
+
+For this article in particular, five statistical regression models were trained with the best parameters using repeated cross-validation. For the sake of this project, we will focus primarily on the regression models of linear regression and boosted/decision trees. For Linear regression, the most linearly fitted variable for predicting the dependent variable is ordered and used as a measure to calculate the variable importance. The GBM model has the highest predictive outcomes in the test set. The linear regression model produces the worst results compared to other models. This shows that the usage count is not linearly related to any of the independent variables. Overall, the linear regression model does not allow for full connections between all of the parameters described, and provides less for data analysis and commonality detection than the other data methods.
+
+In terms of limitations, there are some factors that may not affect whether or not the user needs to rent a bike. For example, in a large city like Seoul, biking might be the sole method of transportation for people whether its going to work or running errands. In some cities, bike rental programs are more economically sound than owning and storing a personal bike as it is too much hastle. That being said, some users would rent a bike regardless of the weather or season, therefore eliminating these factors as contributions to data. Also, distance travelled on bike should be another factor contributing to the number of bike rentals. Determing how far the rentl location is from the return location, as well as some sort of mileage tracker, may allow the researchers further insight into how impactful bike rentals are in Seoul. Whether rental is for commuting to work, run
+
+Citation information: [1] Sathishkumar V E, Jangwoo Park, and Yongyun Cho. 'Using data mining techniques for bike sharing demand prediction in metropolitan city.' Computer Communications, Vol.153, pp.353-366, March, 2020
+
+
+
+
+
+
+Article 2:[2] Sathishkumar V E and Yongyun Cho. 'A rule-based model for Seoul Bike sharing demand prediction using weather data' European Journal of Remote Sensing, pp. 1-18, Feb, 2020
+
+
+Citation information: [2] Sathishkumar V E and Yongyun Cho. 'A rule-based model for Seoul Bike sharing demand prediction using weather data' European Journal of Remote Sensing, pp. 1-18, Feb, 2020
+
+
+
+
+Record its citation information
+Write one paragraph summarizing the results
+Write one paragraph detailing their description of limitations, biases, data shortcomings, and etc, and add your own conclusions about what might be overlooked
