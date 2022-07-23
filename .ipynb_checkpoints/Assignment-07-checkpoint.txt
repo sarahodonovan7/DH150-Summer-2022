@@ -43,4 +43,5 @@ conclusion from. This includes miles traveled, distance of return destination fr
 participate in per year, etc. All of these factors can reveal more information on the prevelance and importance of bike sharing, which 
 would hopefully enact some of these resources to other cities all over.
 
-Citation information: [2] Sathishkumar V E and Yongyun Cho. 'A rule-based model for Seoul Bike sharing demand prediction using weather data' European Journal of Remote Sensing, pp. 1-18, Feb, 2020
+Citation information: [2] Sathishkumar V E and Yongyun Cho. 'A rule-based model for Seoul Bike sharing demand prediction using weather 
+data' European Journal of Remote Sensing, pp. 1-18, Feb, 2020
