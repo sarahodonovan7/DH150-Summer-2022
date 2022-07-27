@@ -1,11 +1,13 @@
 # Machine Learning and Seoul Bike Data #
 
-#### Background
-The goal of this project is to perform various Machine Learning algorithms on a data set, and compare our findings with the work of prior researchers. In addition to attempting to achieve similar findings, we will also include new methods of data analysis. INSERT TYPE OF ML HERE
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sarahodonovan7/DH150-Summer-2022/HEAD?urlpath=https%3A%2F%2Fgithub.com%2Fsarahodonovan7%2FDH150-Summer-2022%2Ftree%2Fmain%2FDH150%2520Project)
 
-In particular, we will analyze data collected over a one-year period, from December 1, 2017 to November 30, 2018. This data pertains to bike rentals and returns in Seoul, South Koeaa. 
+#### Background
+The goal of this project is to perform various Machine Learning algorithms on a data set, and compare our findings with the work of prior researchers. In addition to attempting to achieve similar findings, we will also include new methods of data analysis. In an effort to recreate similar data to the prior existing work, we applied the Machine Learning Methods of Linear Regression, Decision Trees, and Random Forest.
+
+The data set in question contains informationcollected over a one-year period, from December 1, 2017 to November 30, 2018. This data pertains to bike rentals in Seoul, South Korea, collecting the number of rentals per hour per day as well as a number of other features. 
 The original data set can be found at the following link: https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand
-I was able to identify two main articles that have previously performed Machine Learning models on this data set. The relevant papers are listed below:
+I was able to identify two main articles that have previously performed Machine Learning models on this data set. Both articles applied a number of Machine Learning methods applied to the dataset, many of them going beyond the scope of our class. The relevant papers are listed below:
 
 [1] Sathishkumar V E, Jangwoo Park, and Yongyun Cho. 'Using data mining techniques for bike sharing demand prediction in metropolitan city.' Computer Communications, Vol.153, pp.353-366, March, 2020.
 
@@ -41,7 +43,7 @@ These changes will allow for easier implementation of code to the data, followin
 
 #### Prior Work
 
-In regards to the article entitled "Using data mining techniques for bike sharing demand prediction in metropolitan city," five statistical regression models were trained with the best parameters using repeated cross-validation. For the sake of this project, we will focus primarily on the regression models of linear regression and boosted/decision trees. For Linear regression, the most linearly fitted variable for predicting the dependent variable is ordered and used as a measure to calculate the variable importance. The GBM model has the highest predictive outcomes in the test set. The linear regression model produces the worst results compared to other models. This shows that the usage count is not linearly related to any of the independent variables. Temperature and Hour are considered as the most significant variables for the hourly rental bike count prediction in all 
+In regards to the article entitled "Using data mining techniques for bike sharing demand prediction in metropolitan city," five statistical regression models were trained with the best hyperparameters using repeated cross-validation. For the sake of this project, we will focus primarily on the regression models of linear regression and boosted/decision trees. For Linear regression, the most linearly fitted variable for predicting the dependent variable is ordered and used as a measure to calculate the variable importance. The GBM model has the highest predictive outcomes in the test set. The linear regression model produces the worst results compared to other models. This shows that the usage count is not linearly related to any of the independent variables. Temperature and Hour are considered as the most significant variables for the hourly rental bike count prediction in all 
 models except linear regression. Overall, the linear regression model does not allow for full connections between all of the parameters described, and provides less for data analysis and commonality detection than the other data methods.
 
 In terms of limitations, there are some factors that may not affect whether or not the user needs to rent a bike. For example, in a large city like Seoul, biking might be the sole method of transportation for people whether its going to work or running errands. In some cities, bike rental programs are more economically sound than owning and storing a personal bike as it is too much hastle. That being said, some users would rent a bike regardless of the weather or season, therefore eliminating these factors as contributions to 
