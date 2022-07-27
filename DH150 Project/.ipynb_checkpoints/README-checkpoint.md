@@ -5,11 +5,11 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sarahodonovan7/DH150-Summer-2022/HEAD)
 
 #### Background
-The goal of this project is to perform various Machine Learning (ML) algorithms on a data set, and compare our findings with the work of prior researchers. In addition to attempting to achieve similar findings, we will also include new methods of data analysis. In an effort to recreate similar data to the prior existing work, we applied the Machine Learning Methods of Linear Regression, Decision Trees, and Random Forest.
+The goal of this project is to perform various Machine Learning (ML) algorithms on a data set, and compare our findings with the work of prior researchers. In an effort to recreate similar data to the prior existing work, we applied the machine learning methods of linear regression, decision trees, and random forest.
 
-The data set in question contains informationcollected over a one-year period, from December 1, 2017 to November 30, 2018. This data pertains to bike rentals in Seoul, South Korea, collecting the number of rentals per hour per day as well as a number of other features. 
+The data set in question contains information collected over a one-year period, from December 1, 2017 to November 30, 2018. This data pertains to bike rentals in Seoul, South Korea, collecting the number of rentals per hour per day as well as a number of other features. 
 The original data set can be found at the following link: https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand
-I was able to identify two main articles that have previously performed Machine Learning models on this data set. Both articles applied a number of Machine Learning methods applied to the dataset, many of them going beyond the scope of our class. That being said, I intend to focus on ML methods that are covered in our class. The relevant papers are listed below:
+I was able to identify two main articles that have previously performed machine learning models on this data set. Both articles applied a number of machine learning methods applied to the dataset, many of them going beyond the scope of our class. That being said, I intend to focus on ML methods that are covered in our class. The relevant papers are listed below:
 
 [1] Sathishkumar V E, Jangwoo Park, and Yongyun Cho. 'Using data mining techniques for bike sharing demand prediction in metropolitan city.' Computer Communications, Vol.153, pp.353-366, March, 2020.
 
@@ -32,7 +32,7 @@ The data set itself includes a variety of features to better categorize the coll
 ###### Holiday - Holiday/No holiday
 ###### Functional Day - Yes (Functioning Day), No (Non-functioning Day)
 
-When attempting to analyze the unmodified data set, I found that it would be unnecessarily complicated to develop code to read the string inputs. However neither article elaborated on what modication methods they took to address this issue, as they gave no reference code or further explanation. In order to prepare the file for easier Machine Learning applications, I decided to manually modify the data set in its CSV file, and assign the string text to specific numerical values. I made the following modifications to the seasons, holiday, functional day, and date features:
+When attempting to analyze the unmodified data set, I found that it would be unnecessarily complicated to develop code to read the string inputs. However neither article elaborated on what modication methods they took to address this issue, as they gave no reference code or further explanation. In order to prepare the file for easier machine learning applications, I decided to manually modify the data set in its CSV file, and assign the string text to specific numerical values. I made the following modifications to the seasons, holiday, functional day, and date features:
 
 ###### no holiday=0, holiday=1
 ###### functional day=1, non functional day=0
