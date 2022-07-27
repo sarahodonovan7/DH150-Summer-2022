@@ -61,8 +61,7 @@ I also believe there is a level of inequality in regards to who may partake in c
 
 When attempting to reproduce similar findings as to those in article one, I decided to perform a linear regression model on a cross-validated testing and training set. The results of this self-produced model are shown in Figure 1, alongside the results from the first article shown in Figure 2.
 
-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
-
+![Alt text](Linear Regression Graph.png?raw=true "Optional Title")
 
 -----
 ### Citations 
