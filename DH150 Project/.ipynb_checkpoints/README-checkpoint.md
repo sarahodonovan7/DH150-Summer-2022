@@ -2,7 +2,7 @@
 ### Sarah O'Donovan
 #### DH150, 27th of July, 2022
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sarahodonovan7/DH150-Summer-2022/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sarahodonovan7/DH150-Summer-2022/HEAD?labpath=DH150%20Project)
 
 #### Background
 The goal of this project is to perform various Machine Learning (ML) algorithms on a data set, and compare our findings with the work of prior researchers. In an effort to recreate similar data to the prior existing work, we applied the machine learning methods of linear regression, decision trees, and random forest.
